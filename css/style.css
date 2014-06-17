@@ -103,3 +103,52 @@ color:#D8D8D8;
 background-color:#D8D8D8;
 height:20px;
 }
+
+.btn-warn {
+  
+color:black;
+ 
+background-color: cyan;
+  
+border-color: cyan;
+width:160px;
+}
+
+
+.btn-warn:hover,
+.btn-warn:focus,
+.btn-warn:active,
+.btn-warn.active {
+  
+color:black;
+ 
+ background-color:cyan;
+ 
+ border-color: cyan;
+
+}
+
+
+.btn-warn.disabled,
+.btn-warn[disabled],
+fieldset[disabled] .btn-warn,
+.btn-warn.disabled:hover,
+.btn-warn[disabled]:hover,
+fieldset[disabled] .btn-warn:hover,
+.btn-warn.disabled:focus,
+.btn-warn[disabled]:focus,
+fieldset[disabled] .btn-warn:focus,
+
+.btn-warning.disabled:active,
+.btn-warning[disabled]:active,
+fieldset[disabled] .btn-warn:active,
+
+.btn-warn.disabled.active,
+.btn-warn[disabled].active,
+fieldset[disabled] .btn-warn.active {
+ 
+ background-color: cyan;
+
+  border-color: darkcyan;
+
+}
